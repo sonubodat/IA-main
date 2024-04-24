@@ -5,7 +5,7 @@ This repository contains a three-tier application built using Docker, utilizing 
 ## Architecture Overview
 
 
-![5](https://github.com/kathan-shah1893/IA/assets/136159210/f434097f-4ec7-48c8-a3f0-e70025e0bb18))
+![5](https://github.com/sonubodat/IA/assets/136159210/f434097f-4ec7-48c8-a3f0-e70025e0bb18))
 
 - **Presentation Layer**: Responsible for presenting information to the user. Built with HTML, CSS, and JavaScript.
 - **Application Layer**: Contains the business logic and functionality of the application. Built with JAVA.
@@ -54,7 +54,7 @@ Follow these steps to run the three-tier application locally:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/kathan-shah1893/IA.git
+    git clone https://github.com/sonubodat/IA.git
     ```
 
 2. Navigate to the project directory:
@@ -69,7 +69,7 @@ Follow these steps to run the three-tier application locally:
     
         FROM mysql:8.0.33
         LABEL "PROJECT"="VPROFILE"
-        LABEL "AUTHOR"="KATHAN"
+        LABEL "AUTHOR"="SONU"
 
         ENV MYSQL_ROOT_PASSWORD="vprodbpass"
         ENV MYSQL_DATABASE="accounts"
@@ -165,11 +165,11 @@ volumes:
 You can pull the Docker image from Docker Hub using the following command:
 
 ```bash
-docker pull kathanshah1893/myvprofileapp
+docker pull sonubodat77/myvprofileapp
 ```
 ## Author
 
-- [Kathan shah](https://github.com/Kathan-shah1893)
+- [Sonu Bodat](https://github.com/sonubodat)
 
 ## Acknowledgements
 
